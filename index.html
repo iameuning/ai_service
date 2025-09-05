@@ -118,6 +118,33 @@
             font-weight: 700;
             margin-bottom: 12px;
             letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .service-link-icon {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            padding: 8px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 40px;
+            height: 40px;
+        }
+        
+        .service-link-icon:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            color: white;
         }
         
         .service-subtitle {
@@ -365,7 +392,10 @@
         <div class="services-grid">
             <div class="service-card manual fade-in">
                 <div class="service-header">
-                    <div class="service-title">AI 업무매뉴얼</div>
+                    <div class="service-title">
+                        <span>AI 업무매뉴얼</span>
+                        <a href="https://www.ai-manual.seoulaibridge.saif.or.kr/" target="_blank" class="service-link-icon" title="AI 업무매뉴얼 바로가기">🔗</a>
+                    </div>
                     <div class="service-subtitle">행정업무의 정확성과 효율성을 높이는 AI 보조도구</div>
                 </div>
                 
@@ -411,7 +441,10 @@
 
             <div class="service-card childcare fade-in">
                 <div class="service-header">
-                    <div class="service-title">영유아 보육행정 AI 업무매뉴얼</div>
+                    <div class="service-title">
+                        <span>영유아 보육행정 AI 업무매뉴얼</span>
+                        <a href="https://www.ai-manual.seoulaibridge.saif.or.kr/" target="_blank" class="service-link-icon" title="영유아 보육행정 AI 업무매뉴얼 바로가기">🔗</a>
+                    </div>
                     <div class="service-subtitle">보육 행정 실무의 효율성과 신뢰성을 높이는 AI 행정지원 도구</div>
                 </div>
                 
@@ -453,7 +486,10 @@
 
             <div class="service-card rfp fade-in">
                 <div class="service-header">
-                    <div class="service-title">제안요청서(RFP) 생성 AI</div>
+                    <div class="service-title">
+                        <span>제안요청서(RFP) 생성 AI</span>
+                        <a href="http://211.115.71.18:8501" target="_blank" class="service-link-icon" title="제안요청서(RFP) 생성 AI 바로가기">🔗</a>
+                    </div>
                     <div class="service-subtitle">행정업무의 체계성과 신속성을 보장하는 AI 도구</div>
                 </div>
                 
@@ -494,7 +530,10 @@
 
             <div class="service-card metabolic fade-in">
                 <div class="service-header">
-                    <div class="service-title">대사증후군 AI 상담</div>
+                    <div class="service-title">
+                        <span>대사증후군 AI 상담</span>
+                        <a href="http://211.115.71.18:8502" target="_blank" class="service-link-icon" title="대사증후군 AI 상담 바로가기">🔗</a>
+                    </div>
                     <div class="service-subtitle">상담 업무의 전문성과 효율성을 높이는 AI 보조도구</div>
                 </div>
                 
@@ -536,12 +575,12 @@
         </div>
 
         <div class="survey-section fade-in">
-            <div class="survey-title">📝 설문 참여 링크</div>📝 설문 참여 링크
+            <div class="survey-title">📝 설문 참여 링크</div>
             <div class="survey-description">
                 서비스 별 사용 경험을 반영하여 더 나은 서비스를 제공하고자 합니다.<br>
                 아래 링크를 통해 설문에 참여해 주시면 큰 도움이 됩니다! 😊
             </div>
-            <a href="https://forms.gle/EmjDPGBqHpVkjTjg6" target="_blank" class="survey-link">📊 설문 참여하기</a>📊 설문 참여하기
+            <a href="https://forms.gle/5aZqDJsZJdi83rSr7" target="_blank" class="survey-link">📊 설문 참여하기</a>
         </div>
     </div>
 </body>
